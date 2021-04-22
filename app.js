@@ -121,6 +121,17 @@ barba.init({
         controller.destroy();
       },
     },
+    {
+      namespace: "mountain",
+      beforeEnter() {
+        logo.href = "../index.html";
+        detailAnimation();
+      },
+      beforeLeave() {
+        detailScene.destroy();
+        controller.destroy();
+      },
+    },
   ],
   transitions: [
     {

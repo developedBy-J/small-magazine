@@ -301,3 +301,50 @@ body.hide {
 .my-bold {
   font-weight: bolder;
 }
+
+.mountain1,
+.mountain2,
+.mountain3,
+.beach1,
+.beach2,
+.beach3 {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.pro h1 {
+  color: rgb(86, 124, 228);
+  font-size: 3rem;
+}
+.con h1 {
+  color: rgb(167, 110, 231);
+  font-size: 3rem;
+}
+.description p {
+  color: aliceblue;
+  padding: 2rem 7rem;
+  font-size: 1.5rem;
+}
+
+.mountain-img img,
+.beach-img img {
+  width: 400px;
+  height: 40vh;
+  padding-bottom: 1rem;
+  object-fit: cover;
+}
